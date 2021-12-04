@@ -73,7 +73,6 @@ export default {
     && terser() 
     && ghPages.publish(
 			'public',
-			{dest: 'svelte/hands-washing-app'},
 			(err) => {
 				if (err)
 					console.error('Could not publish to GitHub Pages', err);
